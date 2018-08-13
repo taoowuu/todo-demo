@@ -1,0 +1,123 @@
+body {
+    background: #edf0f1;
+}
+
+.all {
+    position: relative;
+    left: 30%;
+    top: 50px;
+}
+
+.todo-add {
+    position: relative;
+    left: 6px;
+    top: 4px;
+}
+
+.hide {
+    display: none;
+}
+
+.todo-container {
+    padding: 15px;
+
+}
+
+.todo-cell {
+    display: block;
+    width: 414px;
+    min-height: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+    line-height: 22px;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 1px 2px rgba(44, 62, 80, 0.10);
+    margin: 0 0 10px 0;
+    padding: 14px 100px 14px 14px;
+    word-break: break-word;
+}
+
+.done.todo-content {
+    position: relative;
+    top: 0px;
+    color: black;
+}
+
+.todo-done {
+    position: relative;
+    top: 3px;
+}
+
+.todo-delete {
+    position: relative;
+    top: 3px;
+}
+
+.done {
+    text-decoration: line-through;
+    background: #25b99a;
+    color: gray;
+}
+
+.input-background {
+    width: 500px;
+    height: 30px;
+    position: relative;
+    padding: 16px;
+    top: 15px;
+    left: 14px;
+    z-index: 5;
+    background: #25b99a;
+    box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.15);
+    border-radius: 5px;
+}
+
+.todo-input {
+    width: 401px;
+    height: 32px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    text-indent: 18px;
+    padding: 0 60px 0 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px 25px 25px 5px;
+    border: 0px;
+    box-shadow: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+button {
+    width: 262px;
+    position: relative;
+    left: 15px;
+    color: gray;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.button-active {
+    color: #fff;
+    background-color: #25b99a;
+}
